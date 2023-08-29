@@ -9,6 +9,7 @@
     "uglify-js": "^3.17.4"
   },
   "scripts": {
-    "start": "node --max_old_space_size=8192 server.js"
+    "start": "node --max_old_space_size=8192 server.js",
+    "dev": "rm -rf ./cache && node --max_old_space_size=8192 server.js"
   }
 }
